@@ -1,0 +1,75 @@
+body {
+    background-color: #626262;
+}
+
+.stage {
+    border: 8px solid #127eaf;
+    background-color: #fff;
+    width: 320px;
+    height: 419px;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 1px 1px 6px #333;
+}
+
+.logo-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -54px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.heading {
+    margin-top: 78px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.country {
+    font-size: 17px;
+}
+
+.city {
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.profile {
+    text-align: center;
+    min-height: 165px;
+}
+
+.profile_image {
+    border: 5px solid #f00;
+    width: 152px;
+    margin-bottom: 10px;
+}
+
+.name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1ad56a;
+    padding: 10px 2px;
+    color: #fff;
+}
+
+.copy {
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #939393;
+}
