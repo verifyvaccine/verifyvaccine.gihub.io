@@ -3,10 +3,10 @@ body {
 }
 
 .stage {
-    border: 8px solid #127eaf;
+    border: 7px solid #118dc0;
     background-color: #fff;
-    width: 320px;
-    height: 419px;
+    width: 95%;
+    height: 445px;
     margin: auto;
     margin-top: 75px;
     box-shadow: 1px 1px 6px #333;
@@ -17,11 +17,19 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    margin-top: -54px;
+    margin:auto;
+    margin-top: -60px;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #ffffff;
+    padding: 2px;
+    box-shadow: 0px 3px 3px #000;
 }
 
 .logo {
-    width: 100px;
+    width: 100%;
 }
 
 .heading {
@@ -31,13 +39,18 @@ body {
 }
 
 .country {
-    font-size: 17px;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 700;
 }
 
 .city {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 15px;
     letter-spacing: 2px;
+    font-family: system-ui;
+    font-weight: 700;
+    margin-top: -3px
 }
 
 .profile {
@@ -49,22 +62,28 @@ body {
     border: 5px solid #f00;
     width: 152px;
     margin-bottom: 10px;
+    padding: 2px;
 }
 
 .name {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    font-family: system-ui;
+    margin-bottom: 15px;
+    letter-spacing: .15em;
 }
 
 .status {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #1ad56a;
-    padding: 10px 2px;
+    background-color: #04d869;
+    padding: 9px;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.6px;
 }
 
 .copy {
@@ -72,4 +91,9 @@ body {
     margin-top: 10px;
     text-align: center;
     color: #939393;
+}
+
+.tap {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
